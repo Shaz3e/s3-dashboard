@@ -1,6 +1,5 @@
 # S3 Dashboard
 
-![GitHub Release](https://img.shields.io/github/v/release/shaz3e/s3-dashboard)
 ![GitHub issues](https://img.shields.io/github/issues/shaz3e/s3-dashboard)
 ![GitHub Contributors](https://img.shields.io/github/contributors/shaz3e/s3-dashboard)
 ![PHP Version](https://img.shields.io/packagist/php-v/laravel/laravel)
