@@ -7,7 +7,7 @@
         "prepare": "husky install"
     },
     "devDependencies": {
-        "autoprefixer": "^10.4.20",
+        "autoprefixer": "^10.4.21",
         "axios": "^1.7.4",
         "concurrently": "^9.0.1",
         "husky": "^9.1.7",
