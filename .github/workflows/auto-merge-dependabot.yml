@@ -28,6 +28,11 @@ jobs:
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
 
+            - name: Approve Pull Request
+              uses: hmarr/auto-approve-action@v4
+              with:
+                github-token: ${{ secrets.GITHUB_TOKEN }}
+
             - name: Merge Dependabot PRs
               if: |
                   github.event.review.state == 'approved' ||
