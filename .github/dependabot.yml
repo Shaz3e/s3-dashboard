@@ -5,12 +5,14 @@ updates:
     directory: "/" # Directory where the composer.json file is located
     schedule:
       interval: "daily" # Options: daily, weekly, monthly
+    auto-merge: true
 
   # JavaScript (Node.js) dependencies
   - package-ecosystem: "npm"
     directory: "/" # Directory where package.json is located
     schedule:
       interval: "daily"
+    auto-merge: true
 
   # GitHub Actions updates
   - package-ecosystem: "github-actions"
